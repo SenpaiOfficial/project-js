@@ -1,3 +1,5 @@
+'use strict';
+
 let numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
@@ -13,7 +15,7 @@ const questionOfFilms2 = prompt('Один из просмотренных фил
 const rateOfFilms1 = prompt('На сколько оцените его?');
 const rateOfFilms2 = prompt('На сколько оцените его?');
 
-personalMovieDB.m ovies[questionOfFilms1] = rateOfFilms1;
+personalMovieDB.movies[questionOfFilms1] = rateOfFilms1;
 personalMovieDB.movies[questionOfFilms2] = rateOfFilms2;
 
 console.log(personalMovieDB);
