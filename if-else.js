@@ -1,10 +1,10 @@
 'use strict';
 
-if (4 == 9) {
+/* if (4 == 9) {
  console.log('Ok');
 } else {
  console.log('error');
-}
+} */
 
 /*
 if (num < 49) {
@@ -33,4 +33,5 @@ switch (num) {
   console.log('Не в этот раз');
   break;
 } */
+
 
