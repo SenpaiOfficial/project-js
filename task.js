@@ -23,13 +23,16 @@ function ret() {
  return num;
 } */
 
-const logger = function () {
- console.log('Hello');
+const options = {
+ name: 'test',
+ width: 1024,
+ height: 1024,
+ colors: {
+  border: 'black',
+  bg: 'red'
+ }
 };
 
-logger();
+console.log(options.name);
 
-const calc = (a, b) => {
- console.log('1');
- return a + b;
-};
+delete options.name;
