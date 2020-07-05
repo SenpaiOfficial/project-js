@@ -10,7 +10,7 @@ const personalMovieDB = {
  genres: [],
  privat: false
 };
-/*
+
 for (let i = 0; i < 2; i++) {
  const questionOfFilms1 = prompt('Один из просмотренных фильмов?', ''),
   rateOfFilms1 = prompt('На сколько оцените его?');
@@ -22,7 +22,7 @@ for (let i = 0; i < 2; i++) {
   console.log('error');
   i--;
  }
-} */
+}
 
 if (personalMovieDB.count < 10) {
  console.log('Просмотрено мало фильмов');
