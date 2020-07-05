@@ -30,9 +30,33 @@ const options = {
  colors: {
   border: 'black',
   bg: 'red'
+ },
+ makeTest: function() {
+  console.log('Test');
  }
 };
 
-console.log(options.name);
+options.makeTest();
+
+const {border, bg} = options.colors;
+console.log(border);
+// console.log(Object.keys(options).length); //
+/* Определят объект с ключами, т.е keys определяет какие ключи, а length - считает сколько ключей */
+/* console.log(options.name);
 
 delete options.name;
+ */
+
+/* let counter = 0;
+for (let key in options) {
+ if (typeof (options[key]) === 'object') {
+  for (let i in options[key]) {
+   console.log(`Property ${i} имеет значение ${options[key][i]}`);
+  }
+ } else {
+  console.log(`Property ${key} имеет значение ${options[key]}`);
+  counter++;
+ }
+}
+Перебор элементов по ключу!, т.е узнает значение у объекта.
+*/
