@@ -23,9 +23,6 @@ function ret() {
  return num;
 } */
 
-const anotherNum = ret();
-console.log(anotherNum);
-
 const logger = function () {
  console.log('Hello');
 };
